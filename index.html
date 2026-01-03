@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Ngo Gia Phong</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Phong Ngo</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -20,8 +20,8 @@
         </ul>
       </div>
     </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">John Doe</div>
+    <nav id="hamburger-nav" aria-label="Mobile navigation">
+      <div class="logo">Phong Ngo</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -38,18 +38,18 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+        <img src="./assets/pro-pic.jpg" alt="Phong Ngo profile picture" class="profile-pic" loading="lazy" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">John Doe</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <h1 class="title">Phong Ngo</h1>
+        <p class="section__text__p2">Full Stack Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/NgoGiaPhong_CV.pdf')"
           >
-            Download CV
+            My CV
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
@@ -60,13 +60,13 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/'"
+            onclick="location.href='https://www.linkedin.com/in/phong-ngo-4b7b70236/'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/'"
+            onclick="location.href='https://github.com/Phongng26'"
           />
         </div>
       </div>
@@ -77,9 +77,10 @@
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/about-pic.png"
+            src="./assets/PhongNg.jpg"
             alt="Profile picture"
             class="about-pic"
+            loading="lazy"
           />
         </div>
         <div class="about-details-container">
@@ -91,7 +92,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
+              <p>3+ years <br />Full Stack Development</p>
             </div>
             <div class="details-container">
               <img
@@ -100,17 +101,12 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <p>B.Sc. Engineering Degree</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+              I am a passionate Software Engineer with over 3 years of experience in full-stack development, specializing in integrating AI and LLM technologies into scalable web systems. My expertise includes frontend frameworks like React.js and Next.js, backend services with FastAPI and Flask, and advanced AI/ML tools such as LangChain, RAG, Transformers, and PyTorch. I have successfully delivered projects in automated test generation, document management, AI-powered content creation, and more, always focusing on efficient and innovative solutions.
             </p>
           </div>
         </div>
@@ -159,7 +155,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>SASS</h3>
+                  <h3>JavaScript</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -170,8 +166,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
+                  <h3>TypeScript</h3>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -181,8 +177,30 @@
                   class="icon"
                 />
                 <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
+                  <h3>React.js</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Next.js</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tailwind CSS</h3>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -199,7 +217,7 @@
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Backend & AI/ML Development</h2>
             <div class="article-container">
               <article>
                 <img
@@ -208,18 +226,40 @@
                   class="icon"
                 />
                 <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>FastAPI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flask</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
                   <h3>PostgreSQL</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Node JS</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -230,7 +270,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Express JS</h3>
+                  <h3>MongoDB</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -241,7 +281,62 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Git</h3>
+                  <h3>LLMs</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>LangChain</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>RAG</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PyTorch</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Docker</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AWS</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -269,7 +364,8 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">TestBot – Automated Test Generator</h2>
+            <p>An AI system that automatically generates test cases and test scripts from uploaded documents, including a CMS for management.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -293,7 +389,8 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">AI-Driven Document Management & Retrieval Platform</h2>
+            <p>A document management platform with RBAC, approval workflows, version control, and an integrated RAG chatbot for natural language queries.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -317,7 +414,8 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Automatic Advertisement Generation System</h2>
+            <p>AI-powered chatbot that generates advertising content from user descriptions and outputs structured formats compatible with Google Ads.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -360,7 +458,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/phong-ngo-4b7b70236/">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -375,7 +473,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p>Copyright &#169; 2026 Phong Ngo. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
